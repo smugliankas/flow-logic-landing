@@ -1,0 +1,40 @@
+*{
+    font-family: "Roboto", sans-serif;
+    color: white;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: midnightblue;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.hero h1{
+    font-size: 96px;
+    padding: 20px;
+}
+.buttons{
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+}
+.btn-primary {
+    background-color: white;
+    color: midnightblue;
+    padding: 15px 30px;
+    border-radius: 12px;
+    text-decoration: none;
+}
+
+.btn-secondary {
+    border: 2px solid white;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 12px;
+    text-decoration: none;
+}
